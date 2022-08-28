@@ -681,6 +681,24 @@ a.btn:hover {
     }
 }
 
+@media (max-width: 1200px) {
+    .flex-items p {
+        padding-left: 70px;
+    }
+    .flex-items h4 {
+        padding-left: 70px;
+    }
+    .flex-items img {
+        height: 250px;
+        padding: 50px;
+        border-radius: 50%;
+    }
+    .section-para {
+        font-size: 17px;
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 992px) {
     #hero {
         height: 100vh;
