@@ -1,2 +1,2 @@
 Readme
-&copy; Ameyont LLC All Rights Reserved
+© Ameyont LLC All Rights Reserved
