@@ -60,7 +60,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #78c48c;
+    background: #50c0ee;
     color: #fff;
 }
 
@@ -152,10 +152,10 @@ img.logo {
     color: #fff;
 }
 #header a:hover {
-    color: #07bee3;
+    color: #50c0ee;
 }
 #header a.active {
-    color: #07bee3;
+    color: #50c0ee;
 }
 
 #header .logo img {
@@ -1455,7 +1455,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-    background: #6ec083;
+    opacity: 85%;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1537,7 +1537,7 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-    background: #090909;
+    background: #190d3f;
     color: #fff;
     font-size: 14px;
     text-align: center;
@@ -1568,7 +1568,7 @@ section {
 #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #190d3f;
+    background: #38b8dd;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1581,7 +1581,7 @@ section {
 }
 
 #footer .social-links a:hover {
-    background: #8c00c2;
+    opacity: 70%;
     color: #fff;
     text-decoration: none;
 }
