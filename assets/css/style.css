@@ -1083,6 +1083,9 @@ section {
     color: #fff;
 }
 
+.services .iconbox-teal:hover .icon path {
+    fill: #11dbcf;
+}
 .services .iconbox-green:hover .icon path {
     fill: #28a745;
 }
@@ -1095,9 +1098,6 @@ section {
     color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
-    fill: #28a745;
-}
 
 .services .iconbox-teel:hover .icon path {
     fill: #28a745;
