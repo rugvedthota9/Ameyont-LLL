@@ -130,6 +130,7 @@ h6 {
 }
 
 img.logo {
+    padding-right: 30px;
     width: 200px;
     height: 200px;
 }
@@ -160,6 +161,11 @@ img.logo {
 
 #header .logo img {
     max-height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    margin-top: 14px;
+    margin-left: 10px;
 }
 
 .scrolled-offset {
@@ -370,7 +376,7 @@ a.btn {
 */
 
 .mobile-nav-toggle {
-    color: #222222;
+    color: #fff;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -421,7 +427,7 @@ a.btn {
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color: #fff;
+    background-color: #000;
     overflow-y: auto;
     transition: 0.3s;
 }
