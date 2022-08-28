@@ -371,6 +371,45 @@ a.btn {
 }
 
 
+@media(max-width: 1200px) {
+    .section-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-para {
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        align-items: center;
+    }
+    .flex-items img {
+        height: 270px;
+    }
+    .flex-items p {
+        padding-left: 100px;
+    }
+    .flex-items h4 {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-items p {
+        padding-left: 90px;
+    }
+    .flex-items h4 {
+        padding-left: 90px;
+    }
+}
+
+
+
 /**
 * Mobile Navigation 
 */
