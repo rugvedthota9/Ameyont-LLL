@@ -60,7 +60,7 @@ h6 {
 }
 
 .back-to-top:hover {
-    background: #50c0ee;
+    background: #8a00c2;
     color: #fff;
 }
 
@@ -251,6 +251,9 @@ a.btn {
     border: none;
 }
 
+a.btn:hover {
+    background: #8a00c2;
+}
 
 .navbar .dropdown ul {
     display: block;
