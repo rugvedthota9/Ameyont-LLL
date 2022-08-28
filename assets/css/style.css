@@ -963,6 +963,12 @@ section {
     position: relative;
 }
 
+.services .icon-box .icon ion-icon {
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+}
+
 .services .icon-box .icon i {
     font-size: 36px;
     transition: 0.5s;
@@ -973,6 +979,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
+    
 }
 
 .services .icon-box .icon svg path {
@@ -1002,11 +1009,11 @@ section {
     box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .iconbox-blue i {
+.services .iconbox-blue ion-icon {
     color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.services .iconbox-blue:hover .icon ion-icon {
     color: #fff;
 }
 
@@ -1014,11 +1021,11 @@ section {
     fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.services .iconbox-orange ion-icon {
     color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.services .iconbox-orange:hover .icon ion-icon {
     color: #fff;
 }
 
@@ -1070,10 +1077,49 @@ section {
     color: #fff;
 }
 
-.services .iconbox-teal:hover .icon path {
-    fill: #11dbcf;
+.services .iconbox-green:hover .icon path {
+    fill: #28a745;
 }
 
+.services .iconbox-green i {
+    color: #28a745;
+}
+
+.services .iconbox-green:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-teal:hover .icon path {
+    fill: #28a745;
+}
+
+.services .iconbox-teel:hover .icon path {
+    fill: #28a745;
+}
+
+.services .iconbox-indigo i {
+    color: #6610f2;
+}
+
+.services .iconbox-indigo:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-indigo:hover .icon path {
+    fill: #6610f2;
+}
+.services .iconbox-cyan i {
+    color: #0dcaf0;
+}
+
+.services .iconbox-cyan:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-cyan:hover .icon path {
+    fill: #0dcaf0;
+}
+/* 46% 54% 70% 30% / 64% 45% 55% 36%  */
 
 /*--------------------------------------------------------------
 # Cta
