@@ -1765,6 +1765,6 @@ section {
 
 @media(min-width: 900px){
     #footer .copyright{
-         padding-top: 40px;
+         padding-top: 10px;
     }
 }
