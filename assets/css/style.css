@@ -1013,6 +1013,15 @@ section {
 .services .icon-box:hover {
     border-color: #fff;
     box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+
+}
+.services .icon-box:hover p {
+    opacity: 50%;
+    transition: 0.5s;
+}
+.services .icon-box p:hover {
+    opacity: 90%;
+    transition: 0.5s;
 }
 
 .services .iconbox-blue ion-icon {
@@ -1021,6 +1030,9 @@ section {
 
 .services .iconbox-blue:hover .icon ion-icon {
     color: #fff;
+}
+.services .iconbox-blue:hover a {
+    color: #47aeff;
 }
 
 .services .iconbox-blue:hover .icon path {
@@ -1034,6 +1046,9 @@ section {
 .services .iconbox-orange:hover .icon ion-icon {
     color: #fff;
 }
+.services .iconbox-orange:hover a {
+    color: #ffa76e;
+}
 
 .services .iconbox-orange:hover .icon path {
     fill: #ffa76e;
@@ -1045,6 +1060,9 @@ section {
 
 .services .iconbox-pink:hover .icon i {
     color: #fff;
+}
+.services .iconbox-pink:hover a {
+    color: #e80368;
 }
 
 .services .iconbox-pink:hover .icon path {
@@ -1058,7 +1076,9 @@ section {
 .services .iconbox-yellow:hover .icon i {
     color: #fff;
 }
-
+.services .iconbox-yellow:hover a {
+    color: #ffbb2c;
+}
 .services .iconbox-yellow:hover .icon path {
     fill: #ffbb2c;
 }
@@ -1069,6 +1089,9 @@ section {
 
 .services .iconbox-red:hover .icon i {
     color: #fff;
+}
+.services .iconbox-red:hover a {
+    color: #ff5828;
 }
 
 .services .iconbox-red:hover .icon path {
@@ -1083,11 +1106,15 @@ section {
     color: #fff;
 }
 
+.services .iconbox-teal:hover a {
+    color: #11dbcf;
+}
+
 .services .iconbox-teal:hover .icon path {
     fill: #11dbcf;
 }
-.services .iconbox-green:hover .icon path {
-    fill: #28a745;
+.services .iconbox-teal:hover .icon path {
+    fill: #11dbcf;
 }
 
 .services .iconbox-green i {
@@ -1097,9 +1124,11 @@ section {
 .services .iconbox-green:hover .icon i {
     color: #fff;
 }
+.services .iconbox-green:hover a {
+    color: #28a745;
+}
 
-
-.services .iconbox-teel:hover .icon path {
+.services .iconbox-green:hover .icon path {
     fill: #28a745;
 }
 
@@ -1109,6 +1138,9 @@ section {
 
 .services .iconbox-indigo:hover .icon i {
     color: #fff;
+}
+.services .iconbox-indigo:hover a {
+    color: #6610f2;
 }
 
 .services .iconbox-indigo:hover .icon path {
@@ -1120,6 +1152,10 @@ section {
 
 .services .iconbox-cyan:hover .icon i {
     color: #fff;
+}
+
+.services .iconbox-cyan:hover a {
+    color: #0dcaf0;
 }
 
 .services .iconbox-cyan:hover .icon path {
