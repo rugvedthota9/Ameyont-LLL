@@ -1763,8 +1763,3 @@ section {
     font-size: 13px;
 }
 
-@media(min-width: 900px){
-    #footer .copyright{
-         padding-top: 10px;
-    }
-}
