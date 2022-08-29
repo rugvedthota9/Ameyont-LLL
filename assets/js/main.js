@@ -39,7 +39,10 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
-
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
   /**
    * Navbar links active state on scroll
    */
