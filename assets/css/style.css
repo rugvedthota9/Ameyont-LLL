@@ -1764,3 +1764,8 @@ section {
     font-size: 13px;
 }
 
+media(max-width: 768px){
+    #footer{
+        overflow: hidden;
+    }
+}
