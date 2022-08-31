@@ -87,10 +87,6 @@ h6 {
     padding: 0;
 }
 
-#about-list{
-    list-style: none;
-}
-
 #topbar .contact-info a {
     line-height: 0;
     color: #444444;
@@ -892,7 +888,6 @@ section {
 
 .about .content ul li {
     padding-bottom: 10px;
-    list-style: none;
 }
 
 .about .content ul i {
