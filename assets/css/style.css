@@ -900,6 +900,9 @@ section {
     margin-bottom: 0;
 }
 
+#about-list{
+    list-style: bullets;
+}
 
 /*--------------------------------------------------------------
 # Why Us
