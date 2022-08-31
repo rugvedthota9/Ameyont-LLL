@@ -87,6 +87,10 @@ h6 {
     padding: 0;
 }
 
+#about-list{
+    list-style: none;
+}
+
 #topbar .contact-info a {
     line-height: 0;
     color: #444444;
