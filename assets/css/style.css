@@ -901,7 +901,7 @@ section {
 }
 
 #about-list{
-    list-style: bullets;
+   list-style-type: upper-roman;
 }
 
 /*--------------------------------------------------------------
