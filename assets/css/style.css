@@ -978,6 +978,9 @@ section {
     background-color: #190d3f;
 }
 
+.section-title h1{
+    text-align: left;
+}
 
 /*--------------------------------------------------------------
 # Services
